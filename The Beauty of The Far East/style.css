@@ -1,0 +1,143 @@
+body {
+    background: #538462;
+    padding: 0px 40px 40px 40px;
+    font-family: 'Cormorant Garamond';
+}
+
+.img {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+
+.wrapper {
+    background: #aef6c3;
+    flex-direction: row-reverse;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+/* Main content */
+.main-content {
+    padding: 20px 80px 40px 80px;
+    box-sizing: border-box;
+
+}
+
+.text {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+br {
+    margin-bottom: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #6fce82;
+    padding: 40px 0px;
+    box-sizing: border-box;
+    width: 305px;
+}
+
+.sidebar-content {
+    width: 305px;
+    height: 305px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+/* Heading */
+
+.main-header {
+    padding-top: 0px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    line-height: normal;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-style: normal;
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+h6 {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.lists {
+    font-style: normal;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list-link {
+    font-style: normal;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(1, 74, 28);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(1, 74, 28);
+}
+
+a:visited {
+    color: rgb(1, 74, 28);
+}
+
+summary {
+    font-style: normal;
+    line-height: normal;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+table {
+    font-family: 'Cormorant Garamond';
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
