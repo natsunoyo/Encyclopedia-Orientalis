@@ -1,0 +1,29 @@
+.underconst {
+    width: 450px;
+    height: 750px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+body {
+    background: rgba(225, 225, 223, 255);
+    flex-direction: row-reverse;
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.sorry {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+}
